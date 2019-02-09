@@ -1,11 +1,8 @@
-:root {
-    --grey: #dddddd;
-    --lightgrey: #f6f6f6;
-}
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -16,7 +13,7 @@
 /* layout */
 body {
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .page {
@@ -37,13 +34,12 @@ body {
 .headercontainer {
     display: flex;
     flex-direction: column;
-
 }
 
 .intro {
     border: 1px solid #dddddd;
     width: 95%;
-    margin: auto;
+    margin: 2em auto;
     display: flex;
     justify-content: flex-start;
 
@@ -65,9 +61,8 @@ body {
 }
 
 .article-list {
-    width: 65%;
+    width: 62%;
     border: 1px solid #dddddd;
-    margin: auto;
     padding-top: 2em;
     margin-top: 2em;
 
@@ -75,26 +70,29 @@ body {
 
 .items {
     background-color: #dddddd;
-
+    padding: 1em 1em 1.5em 1em;
     margin: 0 2em;
-    padding-left: 1em;
+
 }
 
 .features {
     display: flex;
     justify-content: space-between;
-}
-.formcontent {
-    width: 33%;
-    margin-top: 3em;
+    width: 95%;
+    margin: auto;
 }
 
-.customerform{
+.formcontent {
+    width: 33%;
+    margin-top: 2em;
+}
+
+.customerform {
     background-color: #dddddd;
     margin-top: 2em;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -103,7 +101,7 @@ form{
     margin: 1em auto;
 }
 
-#submit{
+#submit {
     width: 10em;
     background-color: #dddddd;
     border-radius: .2em;
@@ -113,9 +111,6 @@ aside {
     background-color: #dddddd;
 
 }
-
-
-
 
 
 /* navigation */
@@ -137,7 +132,7 @@ aside {
 
 .primarynav ul {
     list-style: none;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 2em;
     font-family: 'BebasNeue';
 
@@ -192,11 +187,13 @@ h3 {
 }
 
 .article-list h2 {
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     margin-left: 1em;
 }
 
+.items p {
+    color: #016006;
+}
 .smaller {
     font-size: .7em;
 }
-
