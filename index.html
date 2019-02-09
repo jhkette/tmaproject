@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,84 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="page">
-        <header class ="pageheader">
-          <div class="headercontainer">
-            <h1>Boot<span class="smaller">world</span></h1>
-            <nav class="primarynav">
+        <header class="pageheader">
+            <div class="headercontainer">
+                <h1>Boot<span class="smaller">world</span></h1>
+                <nav class="primarynav">
                     <ul>
-                        <li> <a href="">  Home</a> </li>
-                        <li><a href=""> Shop</a>  </li>
+                        <li> <a href="" id="current">Home</a></li>
+                        <li><a href=""> Shop</a> </li>
                         <li><a href=""> News</a> </li>
                         <li><a href=""> About us</a></li>
                         <li><a href=""> Contact us</a></li>
                     </ul>
-    
                 </nav>
-            </div>    
-            <nav class ="commonlinks">
-            <ul>
-                <li>Site map</li>
-                <li>Privacy Policy</li>
-                <li>Accessibility</li>   
-            </ul>
+            </div>
+            <nav class="commonlinks">
+                <ul>
+                    <li>Site map</li>
+                    <li>Privacy Policy</li>
+                    <li>Accessibility</li>
+                </ul>
             </nav>
-        </header>   
-            <section class = intro>
-                <img src = "./images/boots.png" alt ="boots">
-                <div class="introcontent">
-                    <h2>Welcome to BootWorld</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at magna cursus augue bibendum vulputate. Etiam sapien mauris, condimentum ut lorem sed, tristique eleifend lectus. Aenean tincidunt mi eu laoreet suscipit. Fusce sit amet tempus arcu. Suspendisse dignissim eros ac tempus fermentum. Phasellus pellentesque vehicula dolor, consectetur pretium magna venenatis vel. Orci varius natoque penatibus et magnis dis parturient montes, 
-                        nascetur ridiculus mus. Ut dictum ipsum ac laoreet sagittis. Morbi congue nisl ut vestibulum tincidunt.</p>
-                </div>
+        </header>
+        <section class=intro>
+            <img src="./images/boots.png" alt="boots">
+            <div class="introcontent">
+                <h2>Welcome to BootWorld</h2>
+                <p>BootWorld is the largest online footwear retailer in the UK. Our shop always has stock of the latest
+                    designer footwear at the most competitive prices. Want to know more about us or our products,
+                    why not send us a message.</p>
+            </div>
+        </section>
+        <div class="features">
+            <section class="article-list">
+                <h2>News in the shop</h2>
+                <article class="items">
+                    <h3>News in the shop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at</p>
+                </article>
+                <article class="items">
+                    <h3>News in the shop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at</p>
+                </article>
+                <article class="items">
+                    <h3>News in the shop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at</p>
+                </article>
+                <article class="items">
+                    <h3>News in the shop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at</p>
+                </article>
             </section>
+            <div class="formcontent">
+                <aside>
+                    <h3>Latest News</h3>
+                    <p>Our seasonal sale has kicked off again! make sure you stop by our online shop to pick up a
+                        bargain.
+                        Posted by: Joe </p>
 
-           
-          
-      
+                </aside>
+                <div class="customerform">
+                    <h3>Subscribe</h3>
+                    <p>Sign up to our newsletter and receive exclusive offers by email weekly.</p>
 
+                    <form action="">
+                        <label for="name">Your name:</label>
+                        <input type="text">
+                        <label for="email">Email address:</label>
+                        <input type="text">
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
     </div>
-    
 </body>
+
 </html>
