@@ -14,21 +14,22 @@
         <header class="pageheader">
             <div class="headercontainer">
                 <h1>Boot<span class="smaller">world</span></h1>
-                <nav class="primarynav">
+                <nav class="commonlinks">
                     <ul>
-                        <li> <a href="" id="current">Home</a></li>
-                        <li><a href=""> Shop</a> </li>
-                        <li><a href=""> News</a> </li>
-                        <li><a href=""> About us</a></li>
-                        <li><a href=""> Contact us</a></li>
+                        <li>Site map</li>
+                        <li>Privacy Policy</li>
+                        <li>Accessibility</li>
                     </ul>
                 </nav>
             </div>
-            <nav class="commonlinks">
+            <nav class="primarynav">
                 <ul>
-                    <li>Site map</li>
-                    <li>Privacy Policy</li>
-                    <li>Accessibility</li>
+                    <li> <a href="" id="current">Home</a></li>
+                    <li><a href=""> Shop</a> </li>
+                    <li><a href=""> News</a> </li>
+                    <li><a href=""> About us</a></li>
+                    <li><a href=""> Contact us</a></li>
+                    <li><a href=""> Subscribe</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,15 +37,12 @@
             <img src="./images/boots.png" alt="boots">
             <div class="introcontent">
                 <h2>Welcome to BootWorld</h2>
-                <p>BootWorld is the largest online footwear retailer in the UK. Our shop always has stock of the latest
+                <p class="lead">BootWorld is the largest online footwear retailer in the UK. <a href="#">Our shop</a> always has stock
+                    of the latest
                     designer footwear at the most competitive prices. Want to know more about us or our products,
-                    why not send us a message.</p>
+                    why not  <a href="#">send us a message.</a> </p>
             </div>
         </section>
-        
-
-
-
 
 
 
@@ -54,45 +52,52 @@
                 <h2>New in the shop</h2>
                 <article class="items">
                     <h3>Classic cowboy boots</h3>
-                    <p>Stand out from the crowd in a pair of classic cowboy boots. Available for Ladies and Gents from only £49.99</p>
+                    <p>Stand out from the crowd in a pair of classic cowboy boots. Available for Ladies and Gents from
+                        only <strong>£49.99</strong></p>
                 </article>
                 <article class="items">
                     <h3>Military boots</h3>
-                    <p>Hard-wearing Men's military boots, gsuaranteed to withstand all weathers. From only £69.99</p>
+                    <p>Hard-wearing Men's military boots, gsuaranteed to withstand all weathers. From only <strong>£69.99</strong></p>
                 </article>
                 <article class="items">
                     <h3>Roman sandals</h3>
-                    <p>Get ready for summer with some stylish roman sandals. From only £39.99</p>
+                    <p>Get ready for summer with some stylish roman sandals. From only <strong>£39.99</strong></p>
                 </article>
                 <article class="items">
                     <h3>Office shoes</h3>
-                    <p>You don't have to wear boring shoes to the office. Check out our new stock of Ladies and Gents fashionable office shoes from only £44.99</p>
+                    <p>You don't have to wear boring shoes to the office. Check out our new stock of Ladies and Gents
+                        fashionable office shoes from only <strong>£44.99</strong></p>
                 </article>
             </section>
             <div class="formcontent">
                 <aside>
-                    <h3>Latest News</h3>
-                    <p>Our seasonal sale has kicked off again! make sure you stop by our online shop to pick up a
-                        bargain.
-                        Posted by: Joe </p>
+                    <h2>Latest News</h2>
+                    <p><a href="#"></ahref>Our seasonal sale has kicked off again! make sure you stop by our online shop to pick up a
+                        bargain.</a></p>
+                    <p><em>Posted by: Joe</em> </p>
 
                 </aside>
                 <div class="customerform">
-                    <h3>Subscribe</h3>
+                    <h2>Subscribe</h2>
                     <p>Sign up to our newsletter and receive exclusive offers by email weekly.</p>
 
                     <form action="">
-                        <label for="name">Your name:</label>
-                        <input type="text">
-                        <label for="email">Email address:</label>
-                        <input type="text">
-                        <input type="submit" id="submit">
+                        <fieldset>
+                            <legend>Sign up now!</legend>
+                            <label for="name">Your name:</label>
+                            <input type="text">
+                            <label for="email">Email address:</label>
+                            <input type="text">
+                            <input type="submit" id="submit" value="Sign up">
+                        </fieldset>
                     </form>
                 </div>
-
-
             </div>
         </div>
+        <footer>
+            <h3>Our address</h3>
+            <p>Malet Street, London, WC1E 7HX</p>
+        </footer>
     </div>
 </body>
 
