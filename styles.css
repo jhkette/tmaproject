@@ -1,13 +1,12 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-webfont.woff);
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: BebasNeue;
-    src: url(./fonts/BebasNeue-webfont.woff);
 }
 
 /* layout */
@@ -27,9 +26,7 @@ body {
 .pageheader {
     width: 95%;
     margin: 2em auto;
-   
     max-width: 1200px;
-  
 }
 
 .headercontainer {
@@ -61,15 +58,12 @@ body {
 .article-list {
     width: 65%;
     padding-top: 1em;
-   
-
 }
 
 .items {
     background-color: #dddddd;
     padding: 1em 1em 1.5em 1em;
     margin: 0 0 0 1em;
-
 }
 
 .features {
@@ -82,7 +76,7 @@ body {
 
 .formcontent {
     width: 33%;
-    margin: 2em 1em 0 1em;
+    margin: 2em 1em;
     width: 33%;
 
 }
@@ -90,8 +84,7 @@ body {
 .customerform {
     background-color: #dddddd;
     margin-top: 2em 0;
-    padding: 1em;
-    
+    padding: 1em;  
 }
 
 form {
@@ -108,6 +101,8 @@ fieldset{
 
 input {
     margin-bottom: 2em;
+    height: 2.2em;
+    width: 100%;
 }
 
 #submit {
@@ -142,12 +137,21 @@ footer {
 .commonlinks ul {
     list-style: none;
     font-size: .7em;
-    color: #016006;
+    
 }
 
 .commonlinks li {
     display: inline;
     margin-left: 1em;
+}
+
+.commonlinks a {
+    color: #016006;
+    text-decoration: none;
+}
+
+.commonlinks a:hover {
+    text-decoration: underline;
 }
 
 .primarynav ul {
@@ -253,6 +257,10 @@ legend {
     font-family: 'BebasNeue';
     font-size: 1.6em;
     margin-right: 1em;
+}
+sup{
+    color: red;
+    font-size: .7em;
 }
 
 footer h3 {
