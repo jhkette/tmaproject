@@ -1,6 +1,8 @@
 @font-face {
-    font-family: BebasNeue;
+    font-family: bebasneue;
     src: url(./fonts/BebasNeue-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
@@ -46,28 +48,18 @@ body {
 }
 
 .introcontent {
-    width: 45%;
+    flex-basis: 45%;
     margin: 1em 0;
 }
 
 .image {
     border: 1px solid #dddddd;
     margin: 1em;
-    width: 45%;
+    flex-basis: 45%;
 }
 .image img {
     width: 100%;
-}
 
-.article-list {
-    width: 65%;
-    padding-top: 1em;
-}
-
-.items {
-    background-color: #dddddd;
-    padding: 1em 1em 1.5em 1em;
-    margin: 0 0 0 1em;
 }
 
 .features {
@@ -78,16 +70,35 @@ body {
     border: 1px solid #dddddd;
 }
 
+
+.article-list {
+    flex-basis: 65%;
+    padding-top: 1em;
+}
+/* add some extra padding to the end of the list of the articles */
+
+
+.items {
+    background-color: #dddddd;
+    padding: 1em 1em 1.5em 1em;
+    margin: 0 0 0 1em;
+}
+
+article:last-child{
+    padding-bottom: 4em;
+}
+
+
 .formcontent {
-    width: 33%;
-    margin: 2em 1em;
-    width: 33%;
+   flex-basis: 33%;
+   margin: 1em;
+   width: 33%;
 
 }
 
 .customerform {
     background-color: #dddddd;
-    margin-top: 2em 0;
+    margin-top: 1.5em;
     padding: 1em;  
 }
 
@@ -109,9 +120,9 @@ input {
     width: 100%;
 }
 
-#submit {
+input[type=submit]  {
     width: 7em;
-    background-image: linear-gradient(#f1f1f1, #bbbbbb);
+    box-shadow: inset 1px 12px 3px 0px rgba(223, 223, 223, 0.616);
     border-radius: .2em;
     padding: .4em 0;
     font-size: .8em;
@@ -162,7 +173,7 @@ footer {
     list-style: none;
     font-size: 1.1em;
     margin-top: 2em;
-    font-family: 'BebasNeue';
+    font-family: 'bebasneue';
 }
 
 .primarynav li {
@@ -199,7 +210,7 @@ footer {
 
 
 h1 {
-    font-family: 'BebasNeue';
+    font-family: 'bebasneue', arial;
     color: #016006;
     font-size: 5em;
     text-shadow: 2px 2px #3e3e3e;
@@ -207,13 +218,13 @@ h1 {
 }
 
 h2 {
-    font-family: 'BebasNeue';
+    font-family: 'BebasNeue', arial;
     font-size: 2em;
     margin-bottom: .75em;
 }
 
 h3 {
-    font-family: 'BebasNeue';
+    font-family: 'BebasNeue', arial;
     color: #016006;
     font-size: 1.8em;
 }
@@ -255,7 +266,7 @@ aside a {
     color: black;
 }
 .smaller {
-    font-size: .7em;
+    font-size: .72em;
 }
 legend {
     font-family: 'BebasNeue';
