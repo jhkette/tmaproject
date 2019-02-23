@@ -88,6 +88,7 @@ article:last-child{
     padding-bottom: 4em;
 }
 
+/* Form */
 
 .formcontent {
    flex-basis: 33%;
@@ -118,6 +119,10 @@ input {
     margin-bottom: 2em;
     height: 2.2em;
     width: 100%;
+    display: block;
+}
+label {
+    display: block;
 }
 
 input[type=submit]  {
@@ -208,9 +213,12 @@ footer {
 
 /* typography */
 
+h1, h2, h3 {
+    font-family: 'bebasneue', arial;
+}
 
 h1 {
-    font-family: 'bebasneue', arial;
+   
     color: #016006;
     font-size: 5em;
     text-shadow: 2px 2px #3e3e3e;
@@ -218,13 +226,13 @@ h1 {
 }
 
 h2 {
-    font-family: 'BebasNeue', arial;
+  
     font-size: 2em;
     margin-bottom: .75em;
 }
 
 h3 {
-    font-family: 'BebasNeue', arial;
+   
     color: #016006;
     font-size: 1.8em;
 }
