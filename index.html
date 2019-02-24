@@ -14,20 +14,20 @@
                     <h1>Boot<span class="smaller">world</span></h1>
                     <nav class="commonlinks">
                         <ul>
-                            <li><a href="">Site map</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Accessibility</a></li>
+                            <li><a href="#">Site map</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Accessibility</a></li>
                         </ul>
                     </nav>
                 </div>
                 <nav class="primarynav">
                     <ul>
-                        <li> <a href="" id="current">Home</a></li>
-                        <li><a href=""> Shop</a> </li>
-                        <li><a href=""> News</a> </li>
-                        <li><a href=""> About us</a></li>
-                        <li><a href=""> Contact us</a></li>
-                        <li><a href=""> Subscribe</a></li>
+                        <li> <a href="#" id="current">Home</a></li>
+                        <li><a href="#"> Shop</a> </li>
+                        <li><a href="#"> News</a> </li>
+                        <li><a href="#"> About us</a></li>
+                        <li><a href="#"> Contact us</a></li>
+                        <li><a href="#"> Subscribe</a></li>
                     </ul>
                 </nav>
             </header>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="introcontent">
                     <h2>Welcome to BootWorld</h2>
-                    <p class="lead">BootWorld is the largest online footwear retailer in the UK. <a href="#">Our shop</a>
+                    <p>BootWorld is the largest online footwear retailer in the UK. <a href="#">Our shop</a>
                         always has stock
                         of the latest
                         designer footwear at the most competitive prices. Want to know more about us or our products,
@@ -93,7 +93,11 @@
             </div>
             <footer>
                 <h3>Our address</h3>
-                <p>Malet Street, London, WC1E 7HX</p>
+                <!-- I'm using a break tag here as it's an address and it deemed appropriate to do so in this context.
+                The <br> is semantically valid, as the line break is part of the data i'm sending
+                In any other situation I would of changed the margin of the paragraph -->
+                <p>Malet Street,<br /> 
+                London, WC1E 7HX</p>
             </footer>
         </div>
     </body>
