@@ -130,7 +130,10 @@ footer {
      display: flex;
      flex-direction: column;
  }
- 
+ .controlgroup{
+    display: flex;
+    flex-direction: column;
+ }
  input {
      margin-bottom: 2em;
      height: 2.2em;

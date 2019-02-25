@@ -81,10 +81,14 @@
                         <form method="POST" action="#">
                             <fieldset>
                                 <legend>Sign up now!</legend>
-                                <label for="name">Your name:</label>
-                                <input type="text" name="name" id="name">
-                                <label for="email">Email address:<sup>*</sup></label>
-                                <input required type="email" name="email" id="email">
+                                <div class="controlgroup">
+                                    <label for="name">Your name:</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="controlgroup">
+                                    <label for="email">Email address:<sup>*</sup></label>
+                                    <input required type="email" name="email" id="email">
+                                </div>
                                 <input type="submit" id="submit" value="Sign up">
                             </fieldset>
                         </form>
